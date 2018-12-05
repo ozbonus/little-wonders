@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "token-cards"
+name = "word-game-letter-distributions"
 version = "0.1.0"
 description = ""
 authors = ["Christopher Perry <ozbonus@gmail.com>"]

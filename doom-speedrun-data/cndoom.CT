@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"player_health"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+614F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"player_armor"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116C8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"ammo_bullet"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116C0C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"ammo_shell"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116C2C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"ammo_rocket"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116C6C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"ammo_cell"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116C4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"equipped_weapon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+116E9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"equipped_ammo"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"level_map_number"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11D3A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"level_episode_number"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11D934</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"power_shielding"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"power_invisibility"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"power_invulnerability"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"power_light"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"power_beserk"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cndoom.exe+11CF58</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

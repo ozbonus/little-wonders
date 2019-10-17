@@ -1,0 +1,22 @@
+Doomed Speed Demos Archive
+http://doomedsda.us/
+-------------------------------------------
+Pwad:	DOOM2.WAD
+Pwad name: Doom 2: Hell on Earth
+Maps:	01-32
+Skill:	4
+Category:	UV Max
+Exe:      	PRboom+ 2.5.1.4 cl2
+	with advanced HUD
+-------------------------------------------
+Time:     	1:29:48
+-------------------------------------------
+Comments:  
+Under 1:30, but not quite where I want to be. Tenements and Monster Condo were awful, and plenty of other maps had a collection of smaller mistakes. 
+Until next time,,,
+-------------------------------------------
+Author:    Cyberdemon531
+cyberdemon@boun.cr
+https://www.stream.me/Cyberdemon531
+https://www.youtube.com/user/Cyberdemon531
+

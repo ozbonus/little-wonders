@@ -1,3 +1,4 @@
+import os
 import pathlib
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -298,6 +299,7 @@ if __name__ == '__main__':
     figure = prepare_figure('fig.png')
     footer = multiline_writer(FOOTER, 905, 'DooM.ttf', 14)
 
+    os.remove('fig.png')
     images = (header, inform, labels, figure, footer)
 
     infographic = stack_images(images)

@@ -19,7 +19,8 @@ DATA = DATA_DIR / 'doom2max12948.zip'
 HEADER = IMAGES_DIR / 'doom2.png'
 INFORM = ['DOOM 2 UV-MAX IN 1:29:48 BY CYBERDEMON 1:29:48',
           'MAPS 01 - 32, USING PRBOOM+ 2.5.1.4 C12',
-          'https://www.stream.me/Cyberdemon531, https://www.youtube.com/user/Cyberdemon531']
+          'https://www.stream.me/Cyberdemon531,',
+          'https://www.youtube.com/user/Cyberdemon531']
 LENGTH = 35 # Length of the data portion of the figure. Default 30.
 LABELS = IMAGES_DIR / 'labels.png'
 FOOTER = ['CREATED BY u/OzBonus, ozbonus@gmail.com',

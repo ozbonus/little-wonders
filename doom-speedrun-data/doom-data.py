@@ -25,6 +25,7 @@ LABELS = IMAGES_DIR / 'labels.png'
 FOOTER = ['CREATED BY u/OzBonus, ozbonus@gmail.com',
            'https://github.com/ozbonus/little-wonders/tree/master/doom-speedrun-data']
 
+OUTPUT = 'doom2max12948.png'
 
 ################################################################################
 # GAME AND TIME DATA
@@ -303,4 +304,4 @@ if __name__ == '__main__':
     images = (header, inform, labels, figure, footer)
 
     infographic = stack_images(images)
-    infographic.save('doom-data.png')
+    infographic.save(OUTPUT)

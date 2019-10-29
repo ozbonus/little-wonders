@@ -1,6 +1,6 @@
 # Doom Speedrun Data
 
-This Python script and associated files were created to extract and analyze data from gameplay videos of [*Doom*][1] and [*Doom II*][2]. I got the idea for this from the [*Doom II* episode][3] of [Watch Out for Fireballs][4], a retro gaming podcast.
+This Python script and associated files were created to extract and analyze data from gameplay videos of [*Doom*][1] and [*Doom II*][2]. I got the idea for this from the [*Doom II* episode][3] of [Watch Out for Fireballs][4], a fantastic gaming podcast.
 
 Given data presented in a particular format, this script produces an infographic summarizing a play session of either of these games.
 

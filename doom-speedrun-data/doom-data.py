@@ -12,14 +12,14 @@ DATA_DIR = pathlib.Path('data')
 IMAGES_DIR = pathlib.Path('images') 
 
 # Use you own data.
-DATA = DATA_DIR / 'AddressLogs-10182019-004712.zip'
+DATA = DATA_DIR / 'doom2max12948.zip'
 
 # Customize the graphic by making changes here.
 HEADER = IMAGES_DIR / 'doom2.png'
-INFORM = ['DOOM 2 UV-SPEED IN 18:31',
-          'MAPS 01 - 30, USING CRIPSYDOOM v5.5.2',
-          'APRIL 07 2019']
-LENGTH = 20 # Length of the data portion of the figure. Default 30.
+INFORM = ['DOOM 2 UV-MAX IN 1:29:48 BY CYBERDEMON 1:29:48',
+          'MAPS 01 - 32, USING PRBOOM+ 2.5.1.4 C12',
+          'https://www.stream.me/Cyberdemon531, https://www.youtube.com/user/Cyberdemon531']
+LENGTH = 35 # Length of the data portion of the figure. Default 30.
 LABELS = IMAGES_DIR / 'labels.png'
 FOOTER = ['CREATED BY u/OzBonus, ozbonus@gmail.com',
            'https://github.com/ozbonus/little-wonders/tree/master/doom-speedrun-data']
@@ -62,7 +62,8 @@ def make_game_df(data):
     game = pd.read_csv(data,
                        skiprows = 2,
                        usecols = [i for i in range(2, 23)],
-                       names = COLUMN_NAMES)
+                       names = COLUMN_NAMES,
+                       dtype='object')
 
     # Find the final row of unknown values and remove everything after.
     # Somtimes ValueLogger will produce some junk data after normal gameplay is
@@ -79,9 +80,11 @@ def make_game_df(data):
     # duplicates made by logging every 27 milliseconds when each game tic takes
     # just over 28 milliseconds. Finally, create a new index starting from zero
     # to make plotting easier.
-    game = game.apply(pd.to_numeric)
+    # game = game.apply(pd.to_numeric)
+    game = game.astype('int64')
     game = game.drop_duplicates()
     game = game.reset_index(drop=True)
+    game.at[0, 'player_health'] = 100
 
     return game
 
@@ -284,8 +287,6 @@ def stack_images(images):
 
 
 if __name__ == '__main__':
-
-    print('********************', DATA_DIR.resolve())
 
     game_df = make_game_df(DATA)
     time_df = make_time_df(game_df)

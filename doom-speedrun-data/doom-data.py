@@ -129,6 +129,7 @@ def make_time_df(game_df):
     times = times.assign(cum_seconds = times['seconds'].cumsum())
     times = times.assign(hms = times['seconds'].apply(seconds_to_hms))
     times = times.assign(cum_hms = times['cum_seconds'].apply(seconds_to_hms))
+    times = times.drop(index=0)
 
     return times
 

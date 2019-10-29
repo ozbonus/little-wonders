@@ -191,7 +191,7 @@ def plot_data(game_df, time_df, length):
 
     # Powers plots. Very much a hack.
     for i, ax in enumerate(fig.axes[4:9]):
-        ax.stackplot(game_df.index, game_df[powers[i]].astype('bool'), colors='seagreen')
+        ax.stackplot(game_df.index, game_df[powers[i]].astype('bool'), colors='steelblue')
         ax.set(facecolor = blues[i])
 
     # Health and armor plot.

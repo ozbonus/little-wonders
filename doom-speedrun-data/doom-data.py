@@ -300,7 +300,7 @@ if __name__ == '__main__':
     inform = multiline_writer(INFORM, 905, 'DooM.ttf', 18)
     labels = Image.open(LABELS)
     figure = prepare_figure('fig.png')
-    footer = multiline_writer(FOOTER, 905, 'DooM.ttf', 14)
+    footer = multiline_writer(FOOTER, 905, 'DooM.ttf', 16)
 
     os.remove('fig.png')
     images = (header, inform, labels, figure, footer)

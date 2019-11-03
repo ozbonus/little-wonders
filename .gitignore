@@ -104,3 +104,8 @@ venv.bak/
 .mypy_cache/
 
 .vscode
+
+# Individual Files
+primary-roads.zip
+secondary-roads.zip
+local-roads.zip
